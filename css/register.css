@@ -1,0 +1,112 @@
+body{
+    background: url("../img/register/bg-img02.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size:cover ;
+    background-position:center;
+    text-align: center;
+}
+div{
+    font-size: 100%;
+    font:inherit
+}
+.register{
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    width: 60%;
+    background-color: rgba(10,10,10,0.6);
+    border: 2px ridge rgba(238,238,238,0.13);
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 1px rgba(16,16,16,0.57);
+    border-bottom: none;
+    color: white;
+}
+.register h3{
+    margin-bottom: 6%;
+}
+.register input{
+    background: none;
+    color: #f8f8f8;
+}
+.check-box{
+    font-size: 0.7em;
+    display: inline-block;
+    line-height: 3em;
+}
+.label-input{
+    display: inline-block;
+    line-height: 2.3em;
+}
+.gender{
+    line-height: 2.3em;
+}
+
+#btn{
+    margin-top: 5%;
+}
+.register .button{
+    background: none;
+    border: 1px #fff solid;
+    border-radius: 0;
+    margin:0 3%;
+    width: 165px;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+    margin-bottom: 3%;
+}
+.register .button:hover{
+    background-color: #8AC42F;
+    color: white;
+    border-color: #8AC42F;
+}
+
+@keyframes dong{
+    0%{
+        padding-left:0px;
+    }
+    2%{
+        padding-left:10px;
+    }
+    4%{
+        padding-left:0px;
+    }
+    6%{
+        padding-left:10px;
+    }
+    8%{
+        padding-left:0px;
+    }
+    80%{
+        padding-left:0px;
+    }
+    88%{
+        padding-left:0px;
+    }
+    90%{
+        padding-left:0px;
+    }
+    92%{
+        padding-left:0px;
+    }
+    94%{
+        padding-left:0px;
+    }
+    96%{
+        padding-left:0px;
+    }
+    99%{
+        padding-left:0px;
+    }
+    100%{
+        padding-left:0px;
+    }
+}
+
+.msg-error{
+    color: #A94442;
+    animation: dong 3s ease-in 0s infinite;
+}
+
+.msg-succ{
+    color: #3C763D;
+}
+

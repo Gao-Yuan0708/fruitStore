@@ -1,0 +1,121 @@
+footer address{
+    display: block;
+    margin: auto;
+    font-style: normal;
+    color: #777;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+.footer-top{
+    padding-top: 30px;
+    background-color: #ddd;
+    margin-bottom: 30px;
+    border-top: 1px solid #ccc;
+}
+footer address .fa{
+    font-size: 16px;
+}
+footer address i{
+    border: 1px #888 solid;
+    width: 35px!important;
+    display: inline-block;!important;
+    height: 35px!important;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 35px;
+}
+footer address p{
+    display: inline-block;
+    color: #666;
+    padding: 0;
+    line-height: 20px;
+    padding-right: 5%;
+}
+
+
+/***************foot-middle*********************/
+#footer{
+    padding: 0;
+    color: #ffffff;
+    background-color: #111;
+}
+footer .footer-middle{
+    margin: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer a{
+    color: #aaa;
+    line-height: normal;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 13px;
+}
+footer a:hover{
+    color: #eea404;
+    text-decoration: none;
+}
+footer .footer-links a {
+    display: inline-block;
+}
+
+.footer-newsletter form{
+    display: inline-block;
+    margin-top: 10px;
+}
+.newsletter-inner{
+    display: inline-block;
+}
+footer p{
+    font-size: 14px;
+    color: #aaa;
+    padding-top: 0;
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+.footer-newsletter .newsletter-input{
+    font-size: 12px;
+    border: 0;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #666;
+    padding: 10px 12px;
+    width: 230px;
+    border-radius: 3px;
+    margin-right: 0;
+}
+
+.social ul.inline-mode li{
+    display: inline-block;
+    margin-right: 6px;
+}
+.fbright{
+    color:#666;
+}
+.pay-accept ul{
+    text-align: right;
+    padding: 0;
+    margin: auto;
+}
+.pay-accept ul li{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.pay-accept li a img{
+    width: 40px;
+    opacity: 0.7;
+}
+

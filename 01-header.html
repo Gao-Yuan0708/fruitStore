@@ -1,0 +1,505 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--<title>header</title>-->
+    <!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet">-->
+    <!--<link href="css/header.css" rel="stylesheet">-->
+    <!--[if lt IE 9]>
+    <!--<script src="js/html5shiv.min.js"></script>-->
+    <!--<script src="js/respond.min.js"></script>-->
+    <!--<![endif]&ndash;&gt;-->
+    <!--<style>-->
+        <!--body{-->
+            <!--font-size: 12px;-->
+            <!--font-family: Poppins,sans-serif;-->
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--页面顶部-->
+<div id="header">
+    <div class="header-container" style="transition: all .3s linear">
+        <!--第一行-->
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="welcome-msg">Welcome to Organic!</div>
+                        <!--下拉列表1-->
+                        <div class="dropdown language-box">
+                            <a href="javascript:;" data-toggle="dropdown" role="button" class="block-language dropdown-toggle">
+                                <img src="img/index/flag-english.jpg">
+                                Englilsh
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#" class="selected">
+                                        <img src="img/index/flag-english.jpg" alt="flag">
+                                        <span>English</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/index/flag-default.jpg" alt="flag">
+                                        <span>French</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/index/flag-german.jpg" alt="flag">
+                                        <span>German</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/index/flag-brazil.jpg" alt="flag">
+                                        <span>Brazil</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/index/flag-chile.jpg" alt="flag">
+                                        <span>Chile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/index/flag-spain.jpg" alt="flag">
+                                        <span>Spanin</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--下拉列表2-->
+                        <div class="dropdown language-box">
+                            <a href="javascript:;" alt="language" class="block-language" data-toggle="dropdown">
+                                USD
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#" class="selected">$ - Dollor</a>
+                                </li>
+                                <li>
+                                    <a href="#">￡ - Eurro</a>
+                                </li>
+                                <li>
+                                    <a href="#">δ - Pound</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--右边*6-->
+                    <div class="col-xs-6 hidden-xs text-right">
+                        <div class="links">
+                            <ul class="list-inline">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li>
+                                    <div class="dropdown language-box">
+                                        <a href="javascript:;" class="block-language" data-toggle="dropdown" style="margin: 0">
+                                            More
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li>
+                                                <a href="#">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Customer Service</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Site Map</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Search Terms</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Advanced Search</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!--Login-->
+                                <li id="login">
+                                    <!--<a href="#" data-toggle="modal" data-target="#myModal" id="login-def">Login</a>-->
+                                    <!--<div id="login-suc">-->
+                                        <!--<span class="login-uname">dingding</span>-->
+                                        <!--<a href="#" class="login-exit">退出</a>-->
+                                    <!--</div>-->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第二行-->
+        <div class="container">
+            <div class="row">
+                <!--左边购物车部分-->
+                <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12 hidden-xs">
+                    <div class="cart-box">
+                        <div class="mini-cart">
+                            <div class="basket dropdown container">
+                                <a href="#min-cart-box" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-shopping-cart shoppingCart"></span>
+                                    <span class="cart-count">2</span>
+                                    <span class="cart-price">My BAG / $259.00</span>
+                                </a>
+                                <!--隐藏元素-->
+                                <div class="dropdown-menu">
+                                    <div class="container">
+                                        <p>item1</p>
+                                        <p>item2</p>
+                                        <p>item3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--中间logo部分-->
+                <div class="col-md-4 col-lg-6 col-sm-4 col-xs-12  text-center">
+                    <div class="logo">
+                        <h1><a href="index.html"><img src="img/index/logo.png"/></a></h1>
+                    </div>
+                </div>
+                <!--右边搜索部分-->
+                <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12 hidden-xs">              
+                    <div class="search-box">
+                        <form action="cat" method="post" id="search-product" name="Categories">
+                        	<div class="form-group has-feedback" style="margin-bottom: 0;">
+                        		<input type="text" placeholder="Search here..." maxlength="70" name="search" id="search" class="form-control"/>
+                         		<span class="glyphicon glyphicon-search form-control-feedback" style="color: #FDAE03;"></span>
+                        	</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end header-->
+
+<!--导航 start-->
+<div class="navbar navbar-default fixed_nav" id="my-nav">
+   <div class="container" style="padding: 0">
+       <!--1、汉堡包图标-->
+       <div class="navbar-header">
+           <a href="#head-menu" class="navbar-toggle" data-toggle="collapse" >
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </a>
+       </div>
+       <!--2、导航条，折叠部分-->
+       <div class="collapse navbar-collapse" id="head-menu">
+           <ul class="nav navbar-nav">
+               <li><a href="#">HOME</a></li>
+               <li class="my-dropdown">
+                   <a href="#">PAGES</a>
+                   <ul class="my-dropmenu" id="my-dropmenu-page">
+                       <li><a href="#">Shop Grid</a></li>
+                       <li><a href="#">Shop List</a></li>
+                       <li><a href="#">Shop Product</a></li>
+                       <li><a href="#">Shop Cart</a></li>
+                       <li><a href="#">Checkout</a></li>
+                       <li><a href="#">WishList</a></li>
+                       <li><a href="#">Compare</a></li>
+                       <li><a href="#">Quick View</a></li>
+                       <li><a href="#">404 Error Page</a></li>
+                   </ul>
+               </li>
+               <li class="mega-menu">
+                   <a href="#">FRUITS</a>
+                   <div class="mega-menu-wrapper">
+                       <div class="row">
+                               <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                                   <ul>
+                                       <li><h5>Apples</h5></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                       <li><a href="#">Super Sweet</a></li>
+                                       <li><a href="#">Gravenstrin</a></li>
+                                       <li><a href="#">Orange Poppin</a></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                   </ul>
+                                   <ul>
+                                       <li><h5>ECOTIC FRUITS</h5></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                       <li><a href="#">Super Sweet</a></li>
+                                       <li><a href="#">Gravenstrin</a></li>
+                                       <li><a href="#">Orange Poppin</a></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                   </ul>
+                               </div>
+                               <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                                   <ul>
+                                       <li><h5>GRAPES</h5></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                       <li><a href="#">Super Sweet</a></li>
+                                       <li><a href="#">Gravenstrin</a></li>
+                                       <li><a href="#">Orange Poppin</a></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                   </ul>
+                                   <ul>
+                                       <li><h5>SUMMER BERRIES</h5></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                       <li><a href="#">Super Sweet</a></li>
+                                       <li><a href="#">Gravenstrin</a></li>
+                                       <li><a href="#">Orange Poppin</a></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                   </ul>
+                               </div>
+                               <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                                   <ul>
+                                       <li><h5>Apples</h5></li>
+                                       <li><a href="#">CITRUSES</a></li>
+                                       <li><a href="#">Super Sweet</a></li>
+                                       <li><a href="#">Gravenstrin</a></li>
+                                       <li><a href="#">Orange Poppin</a></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                   </ul>
+                                   <ul>
+                                       <li><h5>GREEN CABBAGE</h5></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                       <li><a href="#">Super Sweet</a></li>
+                                       <li><a href="#">Gravenstrin</a></li>
+                                       <li><a href="#">Orange Poppin</a></li>
+                                       <li><a href="#">Aurore Grape</a></li>
+                                   </ul>
+                               </div>
+                               <div class="col-lg-6 hidden-md hidden-sm hidden-xs" style="text-align: -webkit-center;">
+                                   <img src="img/index/menu-img1.jpg" alt="" class="img-responsive">
+                               </div>
+                           </div>
+                   </div>
+               </li>
+               <li class="mega-menu">
+                   <a href="#">VEGETABLES</a>
+                   <div class="mega-menu-wrapper">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                                <ul>
+                                    <li><h5>HERBS SPICES</h5></li>
+                                    <li><a href="#">Lemon Grass</a></li>
+                                    <li><a href="#">Rosemary</a></li>
+                                    <li><a href="#">Chamomile</a></li>
+                                    <li><a href="#">Oregano</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                                <ul>
+                                    <li><h5>VEGETABLES</h5></li>
+                                    <li><a href="#">Lemon Grass</a></li>
+                                    <li><a href="#">Rosemary</a></li>
+                                    <li><a href="#">Chamomile</a></li>
+                                    <li><a href="#">Oregano</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                                <ul>
+                                    <li><h5>ONION FAMILY</h5></li>
+                                    <li><a href="#">Lemon Grass</a></li>
+                                    <li><a href="#">Rosemary</a></li>
+                                    <li><a href="#">Chamomile</a></li>
+                                    <li><a href="#">Oregano</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                                <ul>
+                                    <li><h5>LEGUMES</h5></li>
+                                    <li><a href="#">Lemon Grass</a></li>
+                                    <li><a href="#">Rosemary</a></li>
+                                    <li><a href="#">Chamomile</a></li>
+                                    <li><a href="#">Oregano</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                                <ul>
+                                    <li><h5>HARICOT BEAN</h5></li>
+                                    <li><a href="#">Lemon Grass</a></li>
+                                    <li><a href="#">Rosemary</a></li>
+                                    <li><a href="#">Chamomile</a></li>
+                                    <li><a href="#">Oregano</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                                <ul>
+                                    <li><h5>KIWI FRUIT</h5></li>
+                                    <li><a href="#">Lemon Grass</a></li>
+                                    <li><a href="#">Rosemary</a></li>
+                                    <li><a href="#">Chamomile</a></li>
+                                    <li><a href="#">Oregano</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs img-div">
+                                <img src="img/index/menu-img2.jpg" alt="" class="img-responsive nav-img-1">
+                            </div>
+                            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs img-div">
+                                <img src="img/index/menu-img3.jpg" alt="" class="img-responsive nav-img-1">
+                            </div>
+                            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs img-div">
+                                <img src="img/index/menu-img4.jpg" alt="" class="img-responsive nav-img-1">
+                            </div>
+                        </div>
+                   </div>
+               </li>
+               <li class="mega-menu">
+                   <a href="#">HEALITHY EATING</a>
+                   <div class="mega-menu-wrapper">
+                       <div class="row">
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>HERBS SPICES</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>VEGETABLES</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>ONION FAMILY</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>LEGUMES</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>HARICOT BEAN</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>KIWI FRUIT</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </li>
+               <li class="mega-menu">
+                   <a href="#">DRINKS</a>
+                   <div class="mega-menu-wrapper">
+                       <div class="row">
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>HERBS SPICES</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>VEGETABLES</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>ONION FAMILY</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs">
+                               <ul>
+                                   <li><h5>LEGUMES</h5></li>
+                                   <li><a href="#">Lemon Grass</a></li>
+                                   <li><a href="#">Rosemary</a></li>
+                                   <li><a href="#">Chamomile</a></li>
+                                   <li><a href="#">Oregano</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs">
+                               <img src="img/index/menu-img5.jpg" class="img-responsive" alt="">
+                           </div>
+                       </div>
+                   </div>
+               </li>
+               <li><a href="#">BLOG</a></li>
+               <li><a href="#">BUY THIS THEME</a></li>
+           </ul>
+       </div>
+   </div>
+</div>
+<!--end nav-->
+
+<!--features start-->
+<div class="features-box hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-12 col-sm-6 text-center">
+                <span class="glyphicon glyphicon-plane"></span>
+                Free&Next Day Delivery
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 text-center">
+                <span class="glyphicon glyphicon-headphones"></span>
+                Support24/7 For Clients
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 text-center">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                100% Satisfaction Guarantee
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 text-center">
+                <span class="glyphicon glyphicon-tags"></span>
+                Great Daily Deals Discount
+            </div>
+        </div>
+    </div>
+</div>
+<!--features end-->
+
+
+
+<!--JS脚本-->
+<!--<script src="bootstrap/js/jquery-1.11.3.js"></script>-->
+<script src="js/header.js"></script>
+<!--<script src="bootstrap/js/bootstrap.js"></script>-->
+<!--</body>-->
+<!--</html>-->

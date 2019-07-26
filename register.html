@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/register.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="register">
+            <h3>Welecome Register</h3>
+
+            <!--Uname-->
+            <div class="row">
+                <div class="col-md-3 label-input text-right">
+                    User Name :
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group  has-feedback">  <!--has-success-->
+                        <input type="text" class="form-control" id="uname" placeholder="Enter your user name">
+                        <span class="glyphicon form-control-feedback" ></span>
+                    </div>
+                </div>
+                <div class="col-md-3 text-left">
+                    <span class="check-box">*</span>
+                </div>
+            </div>
+            <!--Upwd-->
+            <div class="row">
+                <div class="col-md-3 label-input text-right">
+                    Password:
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group has-feedback">
+                        <input type="password" class="form-control" id="upwd" placeholder="Enter your password">
+                        <span class="glyphicon form-control-feedback" ></span>
+                    </div>
+                </div>
+                <div class="col-md-3 text-left">
+                    <span class="check-box">*</span>
+                </div>
+            </div>
+            <!--Confirm upwd-->
+            <div class="row">
+                <div class="col-md-3 label-input text-right">
+                    Conform Password:
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group has-feedback">
+                        <input type="password" class="form-control" id="cpwd" placeholder="Please confirm your password">
+                        <span class="glyphicon form-control-feedback" ></span>
+                    </div>
+                </div>
+                <div class="col-md-3 text-left">
+                    <span class="check-box">*</span>
+                </div>
+            </div>
+            <!--Email-->
+            <div class="row">
+                <div class="col-md-3 label-input text-right">
+                    Email:
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group has-feedback">
+                        <input type="eamil" class="form-control" id="email" placeholder="Enter your email">
+                        <span class="glyphicon form-control-feedback" ></span>
+                    </div>
+                </div>
+                <div class="col-md-3 text-left">
+                    <span class="check-box">*</span>
+                </div>
+            </div>
+            <!--Phone-->
+            <div class="row">
+                <div class="col-md-3 label-input text-right">
+                    Phone:
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group has-feedback">
+                        <input type="phone" class="form-control" id="phone" placeholder="Enter your telephone">
+                    </div>
+                </div>
+                <div class="col-md-3 text-left">
+                    <span class="check-box">*</span>
+                </div>
+            </div>
+            <!--Gender-->
+            <div class="row" style="margin-bottom: 1%">
+                <div class="col-md-3 label-input text-right">
+                    Gender:
+                </div>
+                <div class="col-md-6 text-left gender">
+                    <input type="radio" name="gender"  value="1" checked> male
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender"  value="0"> female
+                </div>
+            </div>
+            <!--user_Name-->
+            <div class="row">
+                <div class="col-md-3 label-input text-right">
+                    True Name:
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group has-feedback">
+                        <input type="text" class="form-control" id="user_name" placeholder="Enter your true name">
+                    </div>
+                </div>
+                <div class="col-md-3 text-left">
+                    <span class="check-box">*</span>
+                </div>
+            </div>
+            <!--是否同意....-->
+            <div class="row">
+                <div class="col-md-6 col-lg-offset-3">
+                    <div class="checkbox text-left">
+                        <label>
+                            <input type="checkbox" id="checkbox">Do you agree to this agreement?
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="btn">
+                <div class="col-md-9 col-md-offset-2 text-left">
+                    <button class="btn button disabled" id="reg-btn" data-toggle="modal" data-target="#myModal">免费注册</button>
+                    <a href="index.html" class="btn button"  style="color: #ffffff">退出</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-msg"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JS脚本-->
+    <script src="bootstrap/js/jquery-1.11.3.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>
